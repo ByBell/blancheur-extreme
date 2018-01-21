@@ -1,6 +1,9 @@
 <head>
   {%- if site.google_analytics and jekyll.environment == 'production' -%}
     {%- include google_analytics.html -%}
+    {%- if site.google_tag_manager -%}
+      {%- include google_tag_manager_head.html -%}
+    {%- endif -%}
   {%- endif -%}
   
   <!-- Robots -->

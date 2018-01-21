@@ -54,6 +54,7 @@ twitter_url: https://twitter.com/Duoarabial
 
 # Google Analytics Tracking ID goes here:
 google_analytics: UA-112496477-1
+google_tag_manager: GTM-52NPH85
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
